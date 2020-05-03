@@ -8,7 +8,7 @@ public class DrawingApp {
     private DrawingTUI drawingTUI = new DrawingTUI();
 
     public void run() {
-        System.out.println("------------------- Welcome to Drawing App --------------------");
+        System.out.println("------------------ Welcome to Drawing App -------------------");
         help();
         Scanner in = new Scanner(System.in);
         while (true) {
@@ -45,7 +45,7 @@ public class DrawingApp {
         System.out.println("Draw Des Carre : d1 = DesCarre((0,0),50)");
         System.out.println("Draw Triangle : t1 = Triangle((0,0),(1,0),(0,1))");
         System.out.println("Move One Shape : move (c1,(10,20))");
-        System.out.println("Move many Shapes : move (c1,(10,20)) (r1,(10,20)) (d1,(10,20))");
+        System.out.println("Move all Shapes : move (c1,(10,20)) (r1,(10,20)) (d1,(10,20))");
         System.out.println("Show Shape : show c1");
         System.out.println("----------------------------------------------------------------");
     }
